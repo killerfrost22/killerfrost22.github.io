@@ -1,0 +1,535 @@
+
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 7) & !(IE 8)]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<title>Blog |  | Mathematics reveals its secrets only to those who approach it with pure love, for its own beauty.</title>
+<link rel="profile" href="https://gmpg.org/xfn/11" />
+<link rel="pingback" href="https://wangweikun.com/xmlrpc.php">
+<!--[if lt IE 9]>
+<script src="https://wangweikun.com/wp-content/themes/twentytwelve/js/html5.js?ver=3.7.0" type="text/javascript"></script>
+<![endif]-->
+<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<link rel="alternate" type="application/rss+xml" title=" &raquo; Feed" href="https://wangweikun.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title=" &raquo; Comments Feed" href="https://wangweikun.com/comments/feed/" />
+		<!-- This site uses the Google Analytics by MonsterInsights plugin v7.17.0 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+							<script src="//www.googletagmanager.com/gtag/js?id=UA-81209545-1"  type="text/javascript" data-cfasync="false"></script>
+			<script type="text/javascript" data-cfasync="false">
+				var mi_version = '7.17.0';
+				var mi_track_user = true;
+				var mi_no_track_reason = '';
+				
+								var disableStr = 'ga-disable-UA-81209545-1';
+
+				/* Function to detect opted out users */
+				function __gtagTrackerIsOptedOut() {
+					return document.cookie.indexOf( disableStr + '=true' ) > - 1;
+				}
+
+				/* Disable tracking if the opt-out cookie exists. */
+				if ( __gtagTrackerIsOptedOut() ) {
+					window[disableStr] = true;
+				}
+
+				/* Opt-out function */
+				function __gtagTrackerOptout() {
+					document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+					window[disableStr] = true;
+				}
+
+				if ( 'undefined' === typeof gaOptout ) {
+					function gaOptout() {
+						__gtagTrackerOptout();
+					}
+				}
+								window.dataLayer = window.dataLayer || [];
+				if ( mi_track_user ) {
+					function __gtagTracker() {dataLayer.push( arguments );}
+					__gtagTracker( 'js', new Date() );
+					__gtagTracker( 'set', {
+						'developer_id.dZGIzZG' : true,
+						                    });
+					__gtagTracker( 'config', 'UA-81209545-1', {
+						forceSSL:true,					} );
+										window.gtag = __gtagTracker;										(
+						function () {
+							/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+							/* ga and __gaTracker compatibility shim. */
+							var noopfn = function () {
+								return null;
+							};
+							var newtracker = function () {
+								return new Tracker();
+							};
+							var Tracker = function () {
+								return null;
+							};
+							var p = Tracker.prototype;
+							p.get = noopfn;
+							p.set = noopfn;
+							p.send = function (){
+								var args = Array.prototype.slice.call(arguments);
+								args.unshift( 'send' );
+								__gaTracker.apply(null, args);
+							};
+							var __gaTracker = function () {
+								var len = arguments.length;
+								if ( len === 0 ) {
+									return;
+								}
+								var f = arguments[len - 1];
+								if ( typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function' ) {
+									if ( 'send' === arguments[0] ) {
+										var hitConverted, hitObject = false, action;
+										if ( 'event' === arguments[1] ) {
+											if ( 'undefined' !== typeof arguments[3] ) {
+												hitObject = {
+													'eventAction': arguments[3],
+													'eventCategory': arguments[2],
+													'eventLabel': arguments[4],
+													'value': arguments[5] ? arguments[5] : 1,
+												}
+											}
+										}
+										if ( typeof arguments[2] === 'object' ) {
+											hitObject = arguments[2];
+										}
+										if ( typeof arguments[5] === 'object' ) {
+											Object.assign( hitObject, arguments[5] );
+										}
+										if ( 'undefined' !== typeof (
+											arguments[1].hitType
+										) ) {
+											hitObject = arguments[1];
+										}
+										if ( hitObject ) {
+											action = 'timing' === arguments[1].hitType ? 'timing_complete' : hitObject.eventAction;
+											hitConverted = mapArgs( hitObject );
+											__gtagTracker( 'event', action, hitConverted );
+										}
+									}
+									return;
+								}
+
+								function mapArgs( args ) {
+									var gaKey, hit = {};
+									var gaMap = {
+										'eventCategory': 'event_category',
+										'eventAction': 'event_action',
+										'eventLabel': 'event_label',
+										'eventValue': 'event_value',
+										'nonInteraction': 'non_interaction',
+										'timingCategory': 'event_category',
+										'timingVar': 'name',
+										'timingValue': 'value',
+										'timingLabel': 'event_label',
+									};
+									for ( gaKey in gaMap ) {
+										if ( 'undefined' !== typeof args[gaKey] ) {
+											hit[gaMap[gaKey]] = args[gaKey];
+										}
+									}
+									return hit;
+								}
+
+								try {
+									f.hitCallback();
+								} catch ( ex ) {
+								}
+							};
+							__gaTracker.create = newtracker;
+							__gaTracker.getByName = newtracker;
+							__gaTracker.getAll = function () {
+								return [];
+							};
+							__gaTracker.remove = noopfn;
+							__gaTracker.loaded = true;
+							window['__gaTracker'] = __gaTracker;
+						}
+					)();
+									} else {
+										console.log( "" );
+					( function () {
+							function __gtagTracker() {
+								return null;
+							}
+							window['__gtagTracker'] = __gtagTracker;
+							window['gtag'] = __gtagTracker;
+					} )();
+									}
+			</script>
+				<!-- / Google Analytics by MonsterInsights -->
+				<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/wangweikun.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.7.2"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='sb_instagram_styles-css'  href='https://wangweikun.com/wp-content/plugins/instagram-feed/css/sbi-styles.min.css?ver=2.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-polls-css'  href='https://wangweikun.com/wp-content/plugins/wp-polls/polls-css.css?ver=2.75.6' type='text/css' media='all' />
+<style id='wp-polls-inline-css' type='text/css'>
+.wp-polls .pollbar {
+	margin: 1px;
+	font-size: 6px;
+	line-height: 8px;
+	height: 8px;
+	background-image: url('https://wangweikun.com/wp-content/plugins/wp-polls/images/default/pollbg.gif');
+	border: 1px solid #c8c8c8;
+}
+
+</style>
+<link rel='stylesheet' id='twentytwelve-fonts-css'  href='https://fonts.googleapis.com/css?family=Open+Sans%3A400italic%2C700italic%2C400%2C700&#038;subset=latin%2Clatin-ext&#038;display=fallback' type='text/css' media='all' />
+<link rel='stylesheet' id='twentytwelve-style-css'  href='https://wangweikun.com/wp-content/themes/twentytwelve/style.css?ver=20190507' type='text/css' media='all' />
+<link rel='stylesheet' id='twentytwelve-block-style-css'  href='https://wangweikun.com/wp-content/themes/twentytwelve/css/blocks.css?ver=20190406' type='text/css' media='all' />
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='twentytwelve-ie-css'  href='https://wangweikun.com/wp-content/themes/twentytwelve/css/ie.css?ver=20150214' type='text/css' media='all' />
+<![endif]-->
+<script type='text/javascript' id='monsterinsights-frontend-script-js-extra'>
+/* <![CDATA[ */
+var monsterinsights_frontend = {"js_events_tracking":"true","download_extensions":"doc,pdf,ppt,zip,xls,jpg,docx,pptx,xlsx","inbound_paths":"[{\"path\":\"\\\/recommend\\\/\",\"label\":\"affiliate\"}]","home_url":"https:\/\/wangweikun.com","hash_tracking":"false","ua":"UA-81209545-1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://wangweikun.com/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend-gtag.min.js?ver=7.17.0' id='monsterinsights-frontend-script-js'></script>
+<script type='text/javascript' src='https://wangweikun.com/wp-includes/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://wangweikun.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<link rel="https://api.w.org/" href="https://wangweikun.com/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://wangweikun.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://wangweikun.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.7.2" />
+<!-- Analytics by WP-Statistics v13.0.8 - https://wp-statistics.com/ -->
+		<style type="text/css" id="wp-custom-css">
+			table, th, td {
+    border-collapse: collapse;
+}
+td{
+    border:1px solid #000;
+}
+td:nth-child(n){ border-top:1px solid #000;}
+
+div#page {
+    max-width: 1000px;
+}
+
+		</style>
+		</head>
+
+<body class="blog wp-embed-responsive full-width custom-font-enabled single-author">
+<div id="page" class="hfeed site">
+	<header id="masthead" class="site-header" role="banner">
+		<hgroup>
+			<h1 class="site-title"><a href="https://wangweikun.com/" title="" rel="home"></a></h1>
+			<h2 class="site-description">Mathematics reveals its secrets only to those who approach it with pure love, for its own beauty.</h2>
+		</hgroup>
+
+		<nav id="site-navigation" class="main-navigation" role="navigation">
+			<button class="menu-toggle">Menu</button>
+			<a class="assistive-text" href="#content" title="Skip to content">Skip to content</a>
+			<div class="menu-my-menu-container"><ul id="menu-my-menu" class="nav-menu"><li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-80"><a href="https://wangweikun.com/">Home</a></li>
+<li id="menu-item-75" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-75"><a href="https://wangweikun.com/research/">Research</a></li>
+<li id="menu-item-76" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-76"><a href="https://wangweikun.com/teaching/">Teaching</a></li>
+<li id="menu-item-77" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-77"><a href="https://wangweikun.com/resource/">Resource</a></li>
+<li id="menu-item-78" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-78"><a href="https://wangweikun.com/gallery/">Gallery</a></li>
+<li id="menu-item-79" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-27 current_page_item current_page_parent menu-item-79"><a href="https://wangweikun.com/blog/" aria-current="page">Blog</a></li>
+</ul></div>		</nav><!-- #site-navigation -->
+
+				<a href="https://wangweikun.com/"><img src="https://wangweikun.com/wp-content/uploads/2018/07/cropped-cropped-Image.jpg" class="header-image" width="1997" height="520" alt="" /></a>
+			</header><!-- #masthead -->
+
+	<div id="main" class="wrapper">
+
+	<div id="primary" class="site-content">
+		<div id="content" role="main">
+		
+							
+	<article id="post-1196" class="post-1196 post type-post status-publish format-standard hentry category-math-software tag-sagemath">
+				<header class="entry-header">
+			
+						<h1 class="entry-title">
+				<a href="https://wangweikun.com/math-software/writing-my-own-sagemath-package/" rel="bookmark">Writing my own Sagemath package</a>
+			</h1>
+										<div class="comments-link">
+					<a href="https://wangweikun.com/math-software/writing-my-own-sagemath-package/#respond"><span class="leave-reply">Leave a reply</span></a>				</div><!-- .comments-link -->
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p>This post is just for self-learning.</p>
+<p>Sagemath uses Python3 and there are many resources for writing Python packages. A very useful guide for Sagemath is [0]. A very useful tutorial for Python is [00]</p>
+<p>The fastest way to improve the programming skills is by analyzing many good examples. Hence in this post, I will analyze some Sagemath packages and record what I have learned here. It purely serves as a guide for me, a non-CS person, to write my own package in the future.</p>
+<p><strong>Example 1</strong>: toric_lattice.py [1] </p>
+<p> <a href="https://wangweikun.com/math-software/writing-my-own-sagemath-package/#more-1196" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+			This entry was posted in <a href="https://wangweikun.com/category/math-software/" rel="category tag">Math.Software</a> and tagged <a href="https://wangweikun.com/tag/sagemath/" rel="tag">SageMath</a> on <a href="https://wangweikun.com/math-software/writing-my-own-sagemath-package/" title="8:27 pm" rel="bookmark"><time class="entry-date" datetime="2020-05-10T20:27:05-05:00">May 10, 2020</time></a><span class="by-author"> by <span class="author vcard"><a class="url fn n" href="https://wangweikun.com/author/wangweikun1989/" title="View all posts by WWK" rel="author">WWK</a></span></span>.								</footer><!-- .entry-meta -->
+	</article><!-- #post -->
+							
+	<article id="post-1194" class="post-1194 post type-post status-publish format-standard hentry category-math-software tag-macaulay2">
+				<header class="entry-header">
+			
+						<h1 class="entry-title">
+				<a href="https://wangweikun.com/math-software/writing-my-own-macaulay2-package/" rel="bookmark">Writing my own Macaulay2 package</a>
+			</h1>
+										<div class="comments-link">
+					<a href="https://wangweikun.com/math-software/writing-my-own-macaulay2-package/#respond"><span class="leave-reply">Leave a reply</span></a>				</div><!-- .comments-link -->
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p>This post is just for self-learning.</p>
+<p>Macaulay2 has its own unique language. For a very brief introduction, check <a href="https://faculty.math.illinois.edu/Macaulay2/Book/ComputationsBook/chapters/programming/chapter-wrapper.pdf">Data Types, Functions, and Programming</a>, which is a chapter in the book <a href="https://faculty.math.illinois.edu/Macaulay2/Book/">Computations in algebraic geometry with Macaulay 2</a>. Besides that, I don&#8217;t think there are any detailed instructions online about writing Macaulay2 packages.</p>
+<p>The fastest way to improve the programming skills is by analyzing many good examples. Hence in this post, I will analyze some Macaulay2 packages and record what I have learned here. It purely serves as a guide for me, a non-CS person, to write my own package in the future.</p>
+<p><strong>Example 1</strong>: ToricMaps.m2 [1] (I&#8217;m one of the authors.)</p>
+<p> <a href="https://wangweikun.com/math-software/writing-my-own-macaulay2-package/#more-1194" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+			This entry was posted in <a href="https://wangweikun.com/category/math-software/" rel="category tag">Math.Software</a> and tagged <a href="https://wangweikun.com/tag/macaulay2/" rel="tag">Macaulay2</a> on <a href="https://wangweikun.com/math-software/writing-my-own-macaulay2-package/" title="8:19 pm" rel="bookmark"><time class="entry-date" datetime="2020-05-10T20:19:32-05:00">May 10, 2020</time></a><span class="by-author"> by <span class="author vcard"><a class="url fn n" href="https://wangweikun.com/author/wangweikun1989/" title="View all posts by WWK" rel="author">WWK</a></span></span>.								</footer><!-- .entry-meta -->
+	</article><!-- #post -->
+							
+	<article id="post-1139" class="post-1139 post type-post status-publish format-standard hentry category-math-software tag-sage-interact tag-sagemath tag-tropical-amoeba tag-tropical-curve tag-tropical-geometry">
+				<header class="entry-header">
+			
+						<h1 class="entry-title">
+				<a href="https://wangweikun.com/math-software/graphing-tropical-curve-in-sagemath/" rel="bookmark">Graphing Tropical Curve in Sagemath</a>
+			</h1>
+										<div class="comments-link">
+					<a href="https://wangweikun.com/math-software/graphing-tropical-curve-in-sagemath/#comments">1 Reply</a>				</div><!-- .comments-link -->
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p>In this <a href="https://wangweikun.com/math-software/tropical-amoeba-in-sagemath/">Post</a>, I mentioned how to graph the tropical amoeba in Sagemath. Now I will talk about how to graph the tropical curve in Sagemath (<strong>by brute force, not Gfan</strong>). </p>
+<p><strong>Warning:</strong> this is in general <strong>NOT</strong> a good way to graph using software as it will take too much time when the polynomial is long. I just wrote this for fun.</p>
+<p>This is the graph of f=t^2*u^2+u*w-t^(-1)*w^2+t*u+t^3*w+t^2 as mentioned in the previous post. As we can see, this is really the limit of that tropical amoeba.<br />
+<a href="https://wangweikun.com/wp-content/uploads/2020/04/6.png"><img loading="lazy" class="alignnone size-full wp-image-1140" src="https://wangweikun.com/wp-content/uploads/2020/04/6.png" alt="" width="583" height="574" srcset="https://wangweikun.com/wp-content/uploads/2020/04/6.png 583w, https://wangweikun.com/wp-content/uploads/2020/04/6-300x295.png 300w" sizes="(max-width: 583px) 100vw, 583px" /></a></p>
+<p> <a href="https://wangweikun.com/math-software/graphing-tropical-curve-in-sagemath/#more-1139" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+			This entry was posted in <a href="https://wangweikun.com/category/math-software/" rel="category tag">Math.Software</a> and tagged <a href="https://wangweikun.com/tag/sage-interact/" rel="tag">Sage interact</a>, <a href="https://wangweikun.com/tag/sagemath/" rel="tag">SageMath</a>, <a href="https://wangweikun.com/tag/tropical-amoeba/" rel="tag">tropical amoeba</a>, <a href="https://wangweikun.com/tag/tropical-curve/" rel="tag">tropical curve</a>, <a href="https://wangweikun.com/tag/tropical-geometry/" rel="tag">tropical geometry</a> on <a href="https://wangweikun.com/math-software/graphing-tropical-curve-in-sagemath/" title="4:13 pm" rel="bookmark"><time class="entry-date" datetime="2020-04-17T16:13:36-05:00">April 17, 2020</time></a><span class="by-author"> by <span class="author vcard"><a class="url fn n" href="https://wangweikun.com/author/wangweikun1989/" title="View all posts by WWK" rel="author">WWK</a></span></span>.								</footer><!-- .entry-meta -->
+	</article><!-- #post -->
+							
+	<article id="post-1083" class="post-1083 post type-post status-publish format-standard hentry category-math-software tag-sagemath tag-tropical-amoeba tag-tropical-curve tag-tropical-geometry">
+				<header class="entry-header">
+			
+						<h1 class="entry-title">
+				<a href="https://wangweikun.com/math-software/tropical-amoeba-in-sagemath/" rel="bookmark">Tropical Amoeba in SageMath</a>
+			</h1>
+										<div class="comments-link">
+					<a href="https://wangweikun.com/math-software/tropical-amoeba-in-sagemath/#comments">1 Reply</a>				</div><!-- .comments-link -->
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p>The original Matlab code comes from [1]. It was modified into Sage code in [2]. I made a slight change to Chapter 6 of [2] so that the coefficients of the polynomial f can be any powers of t.</p>
+<p>Since the speed of calculating the roots is not that fast, it might take few minutes to get the graph depending on the grid number.</p>
+<p>In [1], it inserts many points between -0.1 and 0.1, so that more points are plotted around the origin. However, when the coefficients contain t, the place where we need to plot more points is not usually the origin. We may fix it by determining where three lines intersect and then plot more points around that point. (We can definitely just increase the grid number globally if we have a supercomputer.)</p>
+<p>If you don&#8217;t have Sagemath installed, try run the code in <a href="https://sagecell.sagemath.org/">SageMathCell</a></p>
+<p> <a href="https://wangweikun.com/math-software/tropical-amoeba-in-sagemath/#more-1083" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+			This entry was posted in <a href="https://wangweikun.com/category/math-software/" rel="category tag">Math.Software</a> and tagged <a href="https://wangweikun.com/tag/sagemath/" rel="tag">SageMath</a>, <a href="https://wangweikun.com/tag/tropical-amoeba/" rel="tag">tropical amoeba</a>, <a href="https://wangweikun.com/tag/tropical-curve/" rel="tag">tropical curve</a>, <a href="https://wangweikun.com/tag/tropical-geometry/" rel="tag">tropical geometry</a> on <a href="https://wangweikun.com/math-software/tropical-amoeba-in-sagemath/" title="3:54 pm" rel="bookmark"><time class="entry-date" datetime="2020-04-06T15:54:23-05:00">April 6, 2020</time></a><span class="by-author"> by <span class="author vcard"><a class="url fn n" href="https://wangweikun.com/author/wangweikun1989/" title="View all posts by WWK" rel="author">WWK</a></span></span>.								</footer><!-- .entry-meta -->
+	</article><!-- #post -->
+							
+	<article id="post-1011" class="post-1011 post type-post status-publish format-standard hentry category-math-software tag-emacs tag-graphics tag-plot tag-sage-shell-mode tag-sagemath tag-xming">
+				<header class="entry-header">
+			
+						<h1 class="entry-title">
+				<a href="https://wangweikun.com/math-software/producing-graphics-from-sage-in-emacs/" rel="bookmark">Producing Graphics from Sage in Emacs</a>
+			</h1>
+										<div class="comments-link">
+					<a href="https://wangweikun.com/math-software/producing-graphics-from-sage-in-emacs/#respond"><span class="leave-reply">Leave a reply</span></a>				</div><!-- .comments-link -->
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p>First, make sure you have installed Xming as I mentioned in:<br />
+<a href="https://wangweikun.com/math-software/programming-in-sagemath-tutorials-for-windows-10-users/">Programming in SageMath: Tutorials for Windows 10 Users</a></p>
+<p>Then make sure you have installed xdg-open by<br />
+<code>sudo apt-get install xdg-utils</code></p>
+<p> <a href="https://wangweikun.com/math-software/producing-graphics-from-sage-in-emacs/#more-1011" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+			This entry was posted in <a href="https://wangweikun.com/category/math-software/" rel="category tag">Math.Software</a> and tagged <a href="https://wangweikun.com/tag/emacs/" rel="tag">Emacs</a>, <a href="https://wangweikun.com/tag/graphics/" rel="tag">graphics</a>, <a href="https://wangweikun.com/tag/plot/" rel="tag">plot</a>, <a href="https://wangweikun.com/tag/sage-shell-mode/" rel="tag">sage-shell-mode</a>, <a href="https://wangweikun.com/tag/sagemath/" rel="tag">SageMath</a>, <a href="https://wangweikun.com/tag/xming/" rel="tag">Xming</a> on <a href="https://wangweikun.com/math-software/producing-graphics-from-sage-in-emacs/" title="5:35 pm" rel="bookmark"><time class="entry-date" datetime="2020-02-12T17:35:44-05:00">February 12, 2020</time></a><span class="by-author"> by <span class="author vcard"><a class="url fn n" href="https://wangweikun.com/author/wangweikun1989/" title="View all posts by WWK" rel="author">WWK</a></span></span>.								</footer><!-- .entry-meta -->
+	</article><!-- #post -->
+							
+	<article id="post-1000" class="post-1000 post type-post status-publish format-standard hentry category-math-software tag-emacs tag-keystrokes tag-sage-shell-mode tag-sagemath">
+				<header class="entry-header">
+			
+						<h1 class="entry-title">
+				<a href="https://wangweikun.com/math-software/command-keystrokes-in-emacs-and-sage-shell-mode/" rel="bookmark">Command Keystrokes in Emacs and Sage-Shell-Mode</a>
+			</h1>
+										<div class="comments-link">
+					<a href="https://wangweikun.com/math-software/command-keystrokes-in-emacs-and-sage-shell-mode/#respond"><span class="leave-reply">Leave a reply</span></a>				</div><!-- .comments-link -->
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p>This is just a post for me to collect common keystrokes for using Sagemath in Emacs.</p>
+<p>1, Ctrl+j<br />
+Start a new line without evaluating. In sage-shell-mode, pressing Enter will evaluate the code.</p>
+<p>2, Ctrl+up/ Ctrl+down (Sage-Shell-Mode)<br />
+Previous/next input.</p>
+<p>3, Alt+p<br />
+Previous input.</p>
+<p>4, Ctrl+g<br />
+Emacs is frozen.</p>
+<p>To be updated.</p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+			This entry was posted in <a href="https://wangweikun.com/category/math-software/" rel="category tag">Math.Software</a> and tagged <a href="https://wangweikun.com/tag/emacs/" rel="tag">Emacs</a>, <a href="https://wangweikun.com/tag/keystrokes/" rel="tag">keystrokes</a>, <a href="https://wangweikun.com/tag/sage-shell-mode/" rel="tag">sage-shell-mode</a>, <a href="https://wangweikun.com/tag/sagemath/" rel="tag">SageMath</a> on <a href="https://wangweikun.com/math-software/command-keystrokes-in-emacs-and-sage-shell-mode/" title="10:48 pm" rel="bookmark"><time class="entry-date" datetime="2020-02-10T22:48:43-05:00">February 10, 2020</time></a><span class="by-author"> by <span class="author vcard"><a class="url fn n" href="https://wangweikun.com/author/wangweikun1989/" title="View all posts by WWK" rel="author">WWK</a></span></span>.								</footer><!-- .entry-meta -->
+	</article><!-- #post -->
+							
+	<article id="post-985" class="post-985 post type-post status-publish format-standard hentry category-math-software tag-emacs tag-github tag-linux tag-macaulay2 tag-sage-shell-mode tag-sagemath tag-ubuntu tag-windows-10 tag-xming">
+				<header class="entry-header">
+			
+						<h1 class="entry-title">
+				<a href="https://wangweikun.com/math-software/programming-in-sagemath-tutorials-for-windows-10-users/" rel="bookmark">Programming in SageMath: Tutorials for Windows 10 Users</a>
+			</h1>
+										<div class="comments-link">
+					<a href="https://wangweikun.com/math-software/programming-in-sagemath-tutorials-for-windows-10-users/#comments">1 Reply</a>				</div><!-- .comments-link -->
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p>Here is a very basic guide for mathematicians who want to program in SageMath under Windows 10 with less hassles.</p>
+<p>If you just want to run SageMath and don&#8217;t plan to develop your own program, you can just download the installer for Windows:<br />
+<a href="https://www.sagemath.org/download.html">https://www.sagemath.org/download.html</a></p>
+<p>Otherwise, I suggest install Ubuntu terminal for windows, which can be freely downloaded from the Microsoft Store.<br />
+<a href="https://ubuntu.com/tutorials/tutorial-ubuntu-on-windows#3-install-ubuntu-for-windows-10">Install Ubuntu for Windows 10</a></p>
+<p>To download SageMath from GitHub and install, you nee to run:<br />
+<code>git clone git://github.com/sagemath/sage.git<br />
+cd sage<br />
+git checkout develop<br />
+make</code></p>
+<p>Before you run the code &#8220;make&#8221;, you might need to install necessary packages:<br />
+ <a href="https://wangweikun.com/math-software/programming-in-sagemath-tutorials-for-windows-10-users/#more-985" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+			This entry was posted in <a href="https://wangweikun.com/category/math-software/" rel="category tag">Math.Software</a> and tagged <a href="https://wangweikun.com/tag/emacs/" rel="tag">Emacs</a>, <a href="https://wangweikun.com/tag/github/" rel="tag">Github</a>, <a href="https://wangweikun.com/tag/linux/" rel="tag">Linux</a>, <a href="https://wangweikun.com/tag/macaulay2/" rel="tag">Macaulay2</a>, <a href="https://wangweikun.com/tag/sage-shell-mode/" rel="tag">sage-shell-mode</a>, <a href="https://wangweikun.com/tag/sagemath/" rel="tag">SageMath</a>, <a href="https://wangweikun.com/tag/ubuntu/" rel="tag">Ubuntu</a>, <a href="https://wangweikun.com/tag/windows-10/" rel="tag">Windows 10</a>, <a href="https://wangweikun.com/tag/xming/" rel="tag">Xming</a> on <a href="https://wangweikun.com/math-software/programming-in-sagemath-tutorials-for-windows-10-users/" title="6:41 pm" rel="bookmark"><time class="entry-date" datetime="2020-02-09T18:41:48-05:00">February 9, 2020</time></a><span class="by-author"> by <span class="author vcard"><a class="url fn n" href="https://wangweikun.com/author/wangweikun1989/" title="View all posts by WWK" rel="author">WWK</a></span></span>.								</footer><!-- .entry-meta -->
+	</article><!-- #post -->
+							
+	<article id="post-795" class="post-795 post type-post status-publish format-standard hentry category-math-ag-toric tag-filtration tag-matroid tag-polytope tag-poset tag-projective-plane tag-tangent-bundle tag-toric-bundle tag-toric-geometry">
+				<header class="entry-header">
+			
+						<h1 class="entry-title">
+				<a href="https://wangweikun.com/math-ag-toric/global-sections-of-toric-bundles-and-polytopes/" rel="bookmark">Global Sections of Toric Bundles and Polytopes</a>
+			</h1>
+										<div class="comments-link">
+					<a href="https://wangweikun.com/math-ag-toric/global-sections-of-toric-bundles-and-polytopes/#respond"><span class="leave-reply">Leave a reply</span></a>				</div><!-- .comments-link -->
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p>This post is a brief explanation about global sections of toric bundles.</p>
+<p>A toric bundle on a toric variety is just a torus-equivariant locally free sheaf. In 1989, Klyachko showed that it corresponds to compatible filtrations of decreasing vector spaces [1]. In 2003, Perling gave a general description of torsion free sheaves based on \(\sigma\)-families [2]. Note that in his thesis, the filtrations are increasing instead of decreasing.</p>
+<p>It&#8217;s like people in tropical geometry can use either max or min for tropical addition, we can use either increasing or decreasing filtrations for toric bundles. I prefer using increasing filtrations mainly because of two reasons: (1) the way of drawing Young diagrams (2) the polytope defined by a line bundle agrees with the one mentioned in either [CLS] or Fulton&#8217;s toric book.</p>
+<p> <a href="https://wangweikun.com/math-ag-toric/global-sections-of-toric-bundles-and-polytopes/#more-795" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+			This entry was posted in <a href="https://wangweikun.com/category/math-ag-toric/" rel="category tag">Math.AG.toric</a> and tagged <a href="https://wangweikun.com/tag/filtration/" rel="tag">filtration</a>, <a href="https://wangweikun.com/tag/matroid/" rel="tag">matroid</a>, <a href="https://wangweikun.com/tag/polytope/" rel="tag">polytope</a>, <a href="https://wangweikun.com/tag/poset/" rel="tag">poset</a>, <a href="https://wangweikun.com/tag/projective-plane/" rel="tag">projective plane</a>, <a href="https://wangweikun.com/tag/tangent-bundle/" rel="tag">tangent bundle</a>, <a href="https://wangweikun.com/tag/toric-bundle/" rel="tag">toric bundle</a>, <a href="https://wangweikun.com/tag/toric-geometry/" rel="tag">toric geometry</a> on <a href="https://wangweikun.com/math-ag-toric/global-sections-of-toric-bundles-and-polytopes/" title="10:45 pm" rel="bookmark"><time class="entry-date" datetime="2019-10-18T22:45:49-05:00">October 18, 2019</time></a><span class="by-author"> by <span class="author vcard"><a class="url fn n" href="https://wangweikun.com/author/wangweikun1989/" title="View all posts by WWK" rel="author">WWK</a></span></span>.								</footer><!-- .entry-meta -->
+	</article><!-- #post -->
+							
+	<article id="post-352" class="post-352 post type-post status-publish format-standard hentry category-math-ag tag-abelian-variety tag-line-bundle">
+				<header class="entry-header">
+			
+						<h1 class="entry-title">
+				<a href="https://wangweikun.com/math-ag/the-theorem-of-the-cube/" rel="bookmark">The theorem of the cube</a>
+			</h1>
+										<div class="comments-link">
+					<a href="https://wangweikun.com/math-ag/the-theorem-of-the-cube/#respond"><span class="leave-reply">Leave a reply</span></a>				</div><!-- .comments-link -->
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p><strong>Theorem 1</strong></p>
+<p>Let X and Y be complete varieties, Z any variety and  \(x_0, y_0, z_0\) points on X, Y, Z respectively. If L is a line bundle such that its restriction on \(\{x_0\} \times Y \times Z, X \times \{y_0\} \times Z\) and \(X \times Y \times \{z_0\}\) are trivial, then L itself is trivial.</p>
+<p>First, let&#8217;s rephrase the theorem in the language of functor. Let T be a contravariant function of the category of complete varieties into the category of abelian groups.</p>
+<p> <a href="https://wangweikun.com/math-ag/the-theorem-of-the-cube/#more-352" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+			This entry was posted in <a href="https://wangweikun.com/category/math-ag/" rel="category tag">Math.AG</a> and tagged <a href="https://wangweikun.com/tag/abelian-variety/" rel="tag">abelian variety</a>, <a href="https://wangweikun.com/tag/line-bundle/" rel="tag">line bundle</a> on <a href="https://wangweikun.com/math-ag/the-theorem-of-the-cube/" title="8:57 pm" rel="bookmark"><time class="entry-date" datetime="2019-03-27T20:57:30-05:00">March 27, 2019</time></a><span class="by-author"> by <span class="author vcard"><a class="url fn n" href="https://wangweikun.com/author/wangweikun1989/" title="View all posts by WWK" rel="author">WWK</a></span></span>.								</footer><!-- .entry-meta -->
+	</article><!-- #post -->
+							
+	<article id="post-152" class="post-152 post type-post status-publish format-standard hentry category-math-ag-trop tag-prime-congruence tag-semirings tag-tropical-geometry">
+				<header class="entry-header">
+			
+						<h1 class="entry-title">
+				<a href="https://wangweikun.com/math-ag-trop/prime-congruence-in-semirings/" rel="bookmark">Prime Congruence in Semirings</a>
+			</h1>
+										<div class="comments-link">
+					<a href="https://wangweikun.com/math-ag-trop/prime-congruence-in-semirings/#respond"><span class="leave-reply">Leave a reply</span></a>				</div><!-- .comments-link -->
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p>Let S be a semiring. A congruence I is a equivalence relation of \(S \times S\) that is a subsemiring. Basically, it is a subset that satisfies:<br />
+1, For \(f \in S\), \((f,f) \in I\).<br />
+2, \((f,g) \in I\) if and only if \((g,f) \in I\).<br />
+3, If \((f,g) \in I\) and \((g,h) \in I\), then \((f,h) \in I\).<br />
+4, If \((f,g) \in I\) and \((h,l) \in I\), then \((f+g,h+l) \in I\).<br />
+5, If \((f,g) \in I\) and \((h,l) \in I\), then \((fh,gl) \in I\).</p>
+<p> <a href="https://wangweikun.com/math-ag-trop/prime-congruence-in-semirings/#more-152" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+			This entry was posted in <a href="https://wangweikun.com/category/math-ag-trop/" rel="category tag">Math.AG.Trop</a> and tagged <a href="https://wangweikun.com/tag/prime-congruence/" rel="tag">prime congruence</a>, <a href="https://wangweikun.com/tag/semirings/" rel="tag">semirings</a>, <a href="https://wangweikun.com/tag/tropical-geometry/" rel="tag">tropical geometry</a> on <a href="https://wangweikun.com/math-ag-trop/prime-congruence-in-semirings/" title="10:09 pm" rel="bookmark"><time class="entry-date" datetime="2018-07-19T22:09:00-05:00">July 19, 2018</time></a><span class="by-author"> by <span class="author vcard"><a class="url fn n" href="https://wangweikun.com/author/wangweikun1989/" title="View all posts by WWK" rel="author">WWK</a></span></span>.								</footer><!-- .entry-meta -->
+	</article><!-- #post -->
+			
+						<nav id="nav-below" class="navigation" role="navigation">
+				<h3 class="assistive-text">Post navigation</h3>
+				<div class="nav-previous"><a href="https://wangweikun.com/blog/page/2/" ><span class="meta-nav">&larr;</span> Older posts</a></div>
+				<div class="nav-next"></div>
+			</nav><!-- .navigation -->
+			
+		
+		</div><!-- #content -->
+	</div><!-- #primary -->
+
+
+		</div><!-- #main .wrapper -->
+	<footer id="colophon" role="contentinfo">
+		<div class="site-info">
+									<a href="https://wordpress.org/" class="imprint" title="Semantic Personal Publishing Platform">
+				Proudly powered by WordPress			</a>
+		</div><!-- .site-info -->
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+<!-- Instagram Feed JS -->
+<script type="text/javascript">
+var sbiajaxurl = "https://wangweikun.com/wp-admin/admin-ajax.php";
+</script>
+<script type='text/javascript' id='wp-polls-js-extra'>
+/* <![CDATA[ */
+var pollsL10n = {"ajax_url":"https:\/\/wangweikun.com\/wp-admin\/admin-ajax.php","text_wait":"Your last request is still being processed. Please wait a while ...","text_valid":"Please choose a valid poll answer.","text_multiple":"Maximum number of choices allowed: ","show_loading":"1","show_fading":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://wangweikun.com/wp-content/plugins/wp-polls/polls-js.js?ver=2.75.6' id='wp-polls-js'></script>
+<script type='text/javascript' src='https://wangweikun.com/wp-content/themes/twentytwelve/js/navigation.js?ver=20141205' id='twentytwelve-navigation-js'></script>
+<script type='text/javascript' src='https://wangweikun.com/wp-includes/js/wp-embed.min.js?ver=5.7.2' id='wp-embed-js'></script>
+<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=default&#038;ver=1.3.11' id='mathjax-js'></script>
+</body>
+</html>
+
+<!--Generated by Endurance Page Cache-->
