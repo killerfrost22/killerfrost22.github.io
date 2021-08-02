@@ -39,7 +39,7 @@ def save_images(image_list):
         index += 1
 #Main function  
 if __name__ == '__main__':
-    file_path = "test.png"
+    file_path = "test.jpg"
     image = Image.open(file_path)
     image.show()
     image = fill_image(image)
